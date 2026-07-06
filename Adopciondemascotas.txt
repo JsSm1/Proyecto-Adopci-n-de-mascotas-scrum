@@ -50,3 +50,43 @@ Prioridad Alta: Registro de usuarios, datos de mascotas, publicación de mascota
 Prioridad Media: búsqueda por raza y edad, notificaciones.
 Prioridad Baja: comentarios y calificaciones.
 Estudio del sistema existente (no nuestra APP, sino lo que ya existe): Actualmente no existe una APP o página organizada que facilite la adopción de una mascota, según las preferencias de cada persona. Además, en redes sociales se encuentran avisos de adopción, pero no están unificados ni organizados.
+
+📐 3. Diseño - Fase 3
+Especificaciones (requisitos documentados):
+Los usuarios podrán registrarse e iniciar sesión.
+Cada mascota tendrá un aparte donde se colocará su foto y características.
+Los usuarios podrán enviarnos solicitudes de adopción.
+El administrador podrá gestionar las publicaciones.
+Los usuarios podrán realizar donaciones mediante una pasarela de pagos.
+Características del sistema:
+Disponible 24/7.
+Acceso desde cualquier dispositivo.
+Protección de datos y acceso con contraseña.
+Interfaz sencilla y fácil de usar.
+Operaciones (lo que realiza el sistema):
+Registro, inicio y cierre de sesión.
+Registro de mascotas y su respectiva publicación, edición y eliminación.
+Recibir notificaciones de solicitudes de adopción.
+Búsqueda de mascotas por filtros (según preferencia del usuario).
+Roles implicados: Analista de negocio,Administrador de bases de datos.
+Desarrollador: Recibe los informes detallados de fallas (bugs) emitidos por el Tester, localiza la línea de código afectada para su inmediata corrección y vuelve a probar la ruta mediante simulaciones técnicas antes de entregar el incremento limpio.
+Analista de negocio:
+
+💻 4. Implementación - Fase 4
+Construcción del sistema:
+Desarrollar el módulo de registro, inicio y cierre de sesión.
+Desarrollo del apartado de publicación de mascotas.
+Crear espacio para la base de datos
+Desarrollo del sistema para filtrar las mascotas.
+Desarrollar módulo de solicitud de adopción. 
+Desarrollar formulario de adopción que permita verificar si el usuario cuenta con las condiciones necesarias para la mascota.
+Elaboración del módulo quienes somos nosotros y contáctanos.
+Carga del sistema en el sitio: Cuando se termine de crear la APP se cargará en el servidor AWS, se realizará la instalación de la base de datos y la publicación y difusión de la APP.
+Capacitación al usuario:
+Cómo registrarse e iniciar sesión.
+Cómo buscar las mascotas según su preferencia.
+Cómo completar el formulario de solicitud de adopción. 
+Roles implicados: 
+Analista de Pruebas: Responsable de diseñar los escenarios de prueba, establecer los criterios de aceptación y redactar las guías de validación funcional del sistema de adopción y donaciones.
+Tester: Encargado de ejecutar de manera práctica los flujos del sitio en busca de fallas o enlaces caídos, apoyándose en Postman para corroborar que el servidor responda de forma segura y correcta ante las solicitudes de los usuarios.
+Desarrollador: Recibe los informes detallados de fallas (bugs) emitidos por el Tester, localiza la línea de código afectada para su inmediata corrección y vuelve a probar la ruta mediante simulaciones técnicas antes de entregar el incremento limpio.
