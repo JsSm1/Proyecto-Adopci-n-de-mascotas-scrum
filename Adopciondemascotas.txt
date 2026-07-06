@@ -1,0 +1,52 @@
+Proyecto: Adopción de Perros y Gatos
+
+El marco Scrum es una metodología ágil que ejecuta todas las fases del ciclo de vida del software de forma cíclica e iterativa en períodos cortos llamados Sprints (de 1 a 4 semanas). En lugar de hacer cada etapa una sola vez para todo el proyecto, Scrum las repite en cada Sprint para entregar fragmentos de software funcionales. 
+A continuación se detalla cómo se aplica cada fase del ciclo de vida dentro de la dinámica de Scrum:
+1. Planificación - Fase 1
+1.1 Meta principal: El objetivo principal de este proyecto es el diseño, desarrollo e implementación de una plataforma web intuitiva y centralizada que permita a los usuarios visualizar y filtrar un catálogo exclusivo de perros y gatos en adopción. Asimismo, el sistema integrará un canal seguro para la recaudación de donaciones voluntarias, para la sostenibilidad del sitio.
+
+1.2 Análisis de viabilidad:
+	 Viabilidad económica:
+Costes: 
+- Inversión en diseño de la plataforma, horas de desarrollo.
+ - costos fijos mensuales de mantenimiento (Hosting, base de datos)
+Beneficios:
+Monetario: Ingreso continuo de dinero a través del módulo de donaciones voluntarias para cubrir alimento y veterinario.
+Operativo: Reducción de costes en publicidad impresa, ya que todo el catálogo estará digitalizado.
+ Viabilidad técnica:
+Se determina que el proyecto  es técnicamente posible utilizando tecnologías como:Html,CSS  React, Java(Springboot).
+El sistema es capaz de almacenar de forma ligera registros de texto (raza, edad, personalidad) y archivos multimedia (fotografías de las mascotas).
+La pasarela de pagos se resolverá mediante la integración de una API externa segura, evitando la necesidad de construir infraestructura bancaria desde cero. 
+
+	Viabilidad Operativa:
+Usuarios Finales (Adoptantes): Al ser un público sin conocimientos técnicos profundos, la interfaz contará con un diseño minimalista y flujos de navegación sencillos (botones grandes e identificables para "Perros", "Gatos" y "Donar").
+Usuarios Administradores (Personal del Refugio): Se creará un panel de control simplificado donde los voluntarios subirán nuevos animales rellenando campos básicos y listas desplegables, sin requerir conocimientos de programación. 
+
+1.3 PLAN DEL PROYECTO DE ALTO NIVEL
+El panorama general del proyecto se divide en cuatro hitos macro esenciales para asegurar el cumplimiento de las tareas y objetivos generales:
+Hito 1: Arquitectura y Base de Datos
+Descripción: Configuración del servidor e instalación de las tablas de datos para el almacenamiento de la información de las mascotas.
+Hito 2: Interfaz de Usuario y Filtros
+Descripción: Programación visual de la página web, incluyendo el despliegue del catálogo y los filtros exclusivos por especie (perros y gatos).
+Hito 3: Pasarela de Donaciones
+Descripción: Integración de la API de pagos y habilitación del formulario interactivo para aportes económicos voluntarios.
+Hito 4: Control de Calidad y Lanzamiento
+Descripción: Pruebas de velocidad de carga, verificación de seguridad y capacitación del personal del refugio para el uso del sistema.
+
+
+	
+
+2. Análisis - Fase 2
+Requisitos del sistema
+Registro e inicio de sesión de usuarios.
+Publicación de los perros y gatos que están disponibles para la adopción.
+Datos de las mascotas.
+Búsqueda de mascotas por raza y edad.
+Envío de solicitudes de adopción.
+Notificación del estado de la solicitud - comentarios y calificaciones.
+
+Priorización de los requisitos del sistema
+Prioridad Alta: Registro de usuarios, datos de mascotas, publicación de mascotas, solicitudes de adopción.
+Prioridad Media: búsqueda por raza y edad, notificaciones.
+Prioridad Baja: comentarios y calificaciones.
+Estudio del sistema existente (no nuestra APP, sino lo que ya existe): Actualmente no existe una APP o página organizada que facilite la adopción de una mascota, según las preferencias de cada persona. Además, en redes sociales se encuentran avisos de adopción, pero no están unificados ni organizados.
